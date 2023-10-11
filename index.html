@@ -8,39 +8,70 @@
 	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 </head>
 <body>
-	<div class="main">
-		<div class="container">
-			<div class="upper">
-			  <h1 style="font-size: 7em;">ZDRussia</h1>
-			  <p style="font-size: 4.9em;">Современный Железнодорожный Cимулятор 2D</p>
-			</div>
-		</div>
-		<div class="container buy">
-		  <button class="mainbtn"><a href="#">КУПИТЬ НА ANDROID & ПК</a></button>
-		  <button class="mainbtn"><a href="#"> ПОДВИЖНОЙ СОСТАВ</a></button>
-		  <button class="mainbtn"><a href="#mainblok">ПОДРОБНЕЕ ➤</a></button>
-		</div>
-		<div id="mainblok">
-		  <div class="container info">
-          <div class="info-colomn">
-            <li id="li1">Купи 1 раз - играй везде</li>
-            <li id="li2">Уникальная авторская графика</li>
-            <li id="li3">Проработанный подвижной состав</li>
-            <li id="li4">Уникальный маршрут - Киевское направление МЖД</li>
-            <li id="li5">Режим обучения</li>
-            <li id="li6">Полное погружение в работу машинстом</li>
-            <li id="li7">Сюжет?</li>
-          </div>
-          <div class="info-colomn" id="info-colomn-right">
-            <div id="snipet"></div>
-            <!--<iframe id="video" width="500" height="300" src="https://www.youtube.com/embed/V1-f4iVH8fw" title="ЭП1М Прибытие ст. Тимашевская / Остановка со 120 км / ч" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
-          </div>
-		</div>
-		</div>
-	</div>
-	<footer>
-	  
-	</footer>
-	<script src="index.js"></script>
+  <div class="container">
+    <header>
+      <div class="col-2-3">
+        <img id="game_logo" src="./media/diarama-logo.png" alt="логотип игры">
+        <h1>ZDRussia</h1>
+      </div>
+    </header>
+    <div class="upper">
+      <img class="bkg_img" src="./media/game_load.png" alt="обложка игры">
+    </div>
+    <div class="buy">
+      <button class="mainbtn"><a href="#">КУПИТЬ НА ANDROID & ПК</a></button>
+      <button class="mainbtn"><a href="#"> ПОДВИЖНОЙ СОСТАВ</a></button>
+      <button class="mainbtn"><a href="#mainblock">ПОДРОБНЕЕ ➤</a></button>
+    </div>
+    <div id="mainblock">
+      <div id="snipets">
+        <details>
+          <summary>Купи 1 раз - играй везде</summary>
+          После покупки игры вы получаете возможность играть, как на Android-устройствах, так и на Windows и Linux. Ваш прогресс сохраняется в облаке.
+        </details>
+        <details>
+          <summary>Уникальная авторская графика</summary>
+          Давай дальше
+        </details>
+        <details>
+          <summary>Нештатные ситуации</summary>
+          Еще чуть чуть
+        </details>
+        <details>
+          <summary>Проработанный подвижной состав</summary>
+          Еще немножка
+        </details>
+        <details>
+          <summary>Уникальный маршрут - Киевское направление МЖД</summary>
+          Просто потерпи
+        </details>
+        <details>
+          <summary>Режим обучения</summary>
+          СЛЕДУЮЩЕЕЕ!!!
+        </details>
+        <details>
+          <summary>Полное погружение в работу машинстом</summary>
+          НЕТ ОБМАНУЛ теперь точно следующее
+        </details>
+        <details>
+          <summary>Сюжет?</summary>
+          Нет, не сюжет, реальная жизнь! Устал подчиняться начальству на работе? Подчиняйся начальству в игре. Вы начинаете игру молодым помощником машиниста в одном Российском депо, заканчиваете игру, а в прочем не важно ...
+        </details>
+      </div>
+      <div id="video">
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/V1-f4iVH8fw" title="ЭП1М Прибытие ст. Тимашевская / Остановка со 120 км / ч" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div id="route_msk">
+        <h1>Киевское направление V1.0</h1>
+        <div class="scheme">
+          <img src="./media/msk-route.png" alt="маршрут">
+          <!--<div id="names">
+            <p>Киевский вокзал</p>
+            <p>Поклонная</p>
+          </div>-->
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
