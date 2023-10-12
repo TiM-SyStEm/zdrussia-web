@@ -135,8 +135,18 @@ details summary{
   height: 3%;
   width: 3%;
 }
-#route_msk #names{
-  vertical-align: top;
-  font-size: calc(16px + 1vw);
-  padding-bottom: 5%;
+@media (max-width: 767px) {
+  #video iframe{
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* стили для sm-устройств */
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  /* стили для md-устройств */
+}
+@media (min-width: 1200px) {
+  /* стили для lg-устройств */
 }
