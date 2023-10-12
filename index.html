@@ -14,6 +14,9 @@
         <img id="game_logo" src="./media/diarama-logo.png" alt="логотип игры">
         <h1>ZDRussia</h1>
       </div>
+      <div class="col-1-4">
+        <a href="./fordriver.html">Машинисту</a>
+      </div>
     </header>
     <div class="upper">
       <img class="bkg_img" src="./media/game_load.png" alt="обложка игры">
@@ -64,11 +67,41 @@
       <div id="route_msk">
         <h1>Киевское направление V1.0</h1>
         <div class="scheme">
-          <img src="./media/msk-route.png" alt="маршрут">
-          <!--<div id="names">
-            <p>Киевский вокзал</p>
-            <p>Поклонная</p>
-          </div>-->
+          <img src="./media/msk-route.png" alt="маршрут" usemap="#rc_map">
+          <map name="rc_map">
+            <area shape="rect"
+              coords="0, 0, 976, 60"
+              href="#kievsk"
+              target="_blank"/>
+            <area shape="rect"
+              coords="0, 70, 976, 130"
+              href="#poklonn"
+              target="_blank"/>
+            <area shape="rect"
+              coords="0, 130, 976, 210"
+              href="#minsk"
+              target="_blank"/>
+            <area shape="rect"
+              coords="0, 210, 976, 290"
+              href="#matveev"
+              target="_blank"/>
+            <area shape="rect"
+              coords="0, 290, 976, 360"
+              href="#amin"
+              target="_blank"/>
+            <area shape="rect"
+              coords="0, 360, 976, 430"
+              href="#ochko"
+              target="_blank"/>
+            <area shape="rect"
+              coords="0, 430, 976, 500"
+              href="#mecher"
+              target="_blank"/>
+            <area shape="rect"
+              coords="0, 500, 976, 570"
+              href="#solnech"
+              target="_blank"/>
+          </map>
         </div>
       </div>
     </div>
