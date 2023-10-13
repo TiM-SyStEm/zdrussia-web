@@ -153,6 +153,89 @@ details summary{
   height: 50%;
   width: 50%;
 }
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 100vh;
+}
+fieldset{
+  color: white;
+}
+fieldset legend{
+  padding: 0.7%;
+  font-family: "RailwayCargo";
+}
+fieldset{
+  font-family: monospace;
+}
+fieldset h1, {
+  font-family: "RailwayCargo";
+}
+form h1{
+  color: white;
+}
+form{
+  color: white;
+  font-size: calc(7px + 1vw);
+}
+form a{
+  font-family: monospace;
+}
+.lihash {
+  list-style-type: none;
+}
+.lihash:before {
+  content: "# ";
+}
+.deflink{
+  color: inherit;
+  text-decoration: none;
+}
+.gametype{
+  cursor: pointer;
+}
+.gametype {
+	margin-bottom: 10px;
+}
+.gametype input[type=radio] {
+	display: none;
+}
+.gametype label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+.gametype label:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background: url("./media/radio-1.png") 0 0 no-repeat;
+}
+/* Checked */
+.gametype input[type=radio]:checked + label:before {
+	background: url("./media/radio-2.png") 0 0 no-repeat;
+}
+ 
+/* Hover */
+.gametype label:hover:before {
+	filter: brightness(120%);
+}
+ 
+/* Disabled */
+.gametype input[type=radio]:disabled + label:before {
+	filter: grayscale(100%);
+}
 @media (max-width: 700px) {
   #video iframe{
     width: 300px;
