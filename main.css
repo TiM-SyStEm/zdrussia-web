@@ -54,7 +54,7 @@ header a{
   font-size: calc(5px + 1vw);
 }
 #game_logo{
-  width: 15%;
+  width: 12%;
   vertical-align: middle;
 }
 .container{
@@ -297,4 +297,9 @@ form a{
 }
 @media (min-width: 1200px) {
   /* стили для lg-устройств */
+}
+#block1 input{
+  font-size: calc(14px + 1vw);
+  margin-top: 5%;
+  outline-color: #F08D14;
 }
